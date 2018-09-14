@@ -3497,6 +3497,11 @@ input, select, textarea {
 		background-attachment: scroll;
 	}
 
+	*{
+	-webkit-tap-highlight-color: transparent;
+	}
+
+
 /* Footer */
 
 	#footer {
