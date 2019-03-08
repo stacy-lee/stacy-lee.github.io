@@ -20,20 +20,22 @@
 					<h1 id="logo"><a href="index.html">Stacy Lee</a></h1>
 					<nav id="nav">
 						<ul>
-						<li><a href ="about.html">About</a></li>
-						<li>
-							<a href="#">Data Science</a>
-							<ul>
-								<li><a href="datavisuals.html">Visuals</a></li>
-								<li><a href="coding.html">Coding</a></li>
-							</ul>
-						</li>
-						<li><a href="assets/resume.pdf">Resume</a></li>
-						<li><a href="#">Other</a>
-							<ul>
-								<li><a href="engineering.html">Engineering</a></li>
-							</ul>
-						</li>
+							<li><a href ="about.html">About</a></li>
+              <li><a href="assets/resume.pdf" target="_blank">Resume</a></li>
+              <li><a href="https://github.com/stacy-lee" target="_blank">GitHub</a></li>
+							<li>
+								Data Science
+								<ul>
+									<li><a href="ds/datavisuals.html">Visuals</a></li>
+									<li><a href="ds/coding.html">Coding</a></li>
+                  <li><a href="ds/projects.html">Projects</a></li>
+								</ul>
+							</li>
+							<li>Other
+								<ul>
+									<li><a href="engineering.html">Engineering</a></li>
+								</ul>
+							</li>
 <!--
 							<li><a href="index.html">Home</a></li>
 							<li>
@@ -64,37 +66,24 @@
 				<div id="main" class="wrapper style1">
 					<div class="container">
 						<header class="major">
-							<h2>Data Science</h2>
-							<p>Visuals</p>
+							<h2>Projects</h2>
+							<p></p>
 						</header>
 
 						<!-- Content -->
 							<section id="content">
-								<h3>Demographic Clustering Sample</h3>
+								<h3>Time Series</h3>
 								<p>
-									I performed supervised learning on a random sample of Ameren customer
-									demographics, representing about 0.1% of Ameren's customers. These were created for
-									practice. In the plots below, customer political affiliation is labeled as 'R' for
-									Republican, 'I' for Independent, 'N' for Non-registered, and 'D' for Democrat.
+                  <a href="ds/projects/WalmartSales.html" target="_blank">Walmart Sales Forecasting</a> achieved WMAE less than 1630
 								</p>
+                <h3>Natural Language Processing</h3>
 								<p>
-									The pairwise plots below show how a customer's political affiliation is represented
-									by a customer's age, estimated home value, census median home value, and home built year.
-									Evidently, there are no noticeable patterns in this sample of data.
+                  <a href="ds/projects/MovieReviews.html" target="_blank">Movie Sentiment Analysis</a> achieved AUC greater than 0.95
 								</p>
-								<img src="images/demopairwise.png" alt="" class="image fit"/>
-
+                <h3>Monte Carlo Methods</h3>
 								<p>
-									Some further analysis of this data sample continues to lack obvious patterns. Below is
-									a principal component score analysis of home built year with customer age, which does
-									not have clear patterns to describe the data since the points lie relatively evenly across
-									the positive and negative principal component scores. Cluster classification using 3 clusters,
-									Class 0, Class 1, and Class 2, was also utilized to find patterns, but the overall accuracy was
-									quite low at about 27%.
+                  <a href="ds/projects/NYCtrafficMC.pdf" target="_blank">NYC Open Data Traffic Counts 2012-2013</a> Weibull Probability Density Function was identified
 								</p>
-								<img src="images/pcademo.png" alt="" class="image fit"/>
-
-
 							</section>
 
 					</div>
